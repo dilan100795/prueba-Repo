@@ -38,6 +38,7 @@ switch (accion) {
             break;
        case undefined :
            console.log("Atención - Tienes que pasarme una acción\n Las acciones disponibles son : listar , crear , eliminar ,  filtrar");
+           console.log("hola a todos")
            break;
 
 
