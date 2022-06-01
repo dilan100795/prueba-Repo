@@ -2,7 +2,7 @@ let process = require('process')
 let archivo = require('./funcionesDeTareas')
 
 let accion = process.argv[2]
- let accion2 = process.argv[3]
+let accion2 = process.argv[3]
 let accion3 = process.argv[4]
 
 switch (accion) {
