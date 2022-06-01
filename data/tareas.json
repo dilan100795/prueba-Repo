@@ -1,0 +1,14 @@
+[
+    {
+        "titulo": "tengo tarea de contabilidad",
+        "estado": "terminado"
+    },
+    {
+        "titu1lo": "app de tareas",
+        "estado": "terminado"
+    },
+    {
+        "titulo": "muchas tareas",
+        "estado": "pendiente"
+    }
+]
