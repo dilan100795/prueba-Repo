@@ -1,1 +1,3 @@
-let saludo = () => 'Hola Mundo';
+let saludo = () => 'hola'
+let nombre  = () => 'leandro'
+let saludos = () => 'Hola Dilan';

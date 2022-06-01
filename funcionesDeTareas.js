@@ -40,11 +40,19 @@ let archivoTareas = {
       let tareasFiltradas = tareas.filter((tarea) =>  tarea.estado === accion)
      
       tareasFiltradas.forEach((tarea,i) => {
-       return console.log(`${i+1} . ${tarea.titulo} - ${tarea.estado}`); 
-    });
+       return console.log(`${i+1} . ${tarea.titulo} - ${tarea.estado}`)
+    
+     
 
 
-    }
+    })
+    
+    
+},
+modificarEstado : (numeroTarea, nuevoEstado) => {
+    let index = numeroTarea - 1
+    let tarea = tareas[index]
+    tarea.estado = nuevoEstado
+    guardarJSON(tareas)},
 }
-
  module.exports = archivoTareas
