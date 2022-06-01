@@ -37,7 +37,7 @@ switch (accion) {
             archivo.filtrarPorEstado(accion2)
             break;
        case undefined :
-           console.log("Atención - Tienes que pasarme una acción\n Las acciones disponibles son : listar , crear , eliminar ,  filtrar");
+           console.log(" , crear , eliminar ,  filtrar");
            break;
 
 
