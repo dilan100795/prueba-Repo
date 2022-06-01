@@ -41,11 +41,8 @@ switch (accion.toLowerCase()) {
         archivo.filtrarPorEstado(accion2)
         break;
 
-      /*  case undefined :
-           console.log("Atención - Tienes que pasarme una acción\n Las acciones disponibles son : listar , crear , filtrar");
-           break; */
-
     default:
+        
         console.log("No entiendo qué quieres hacer\n Las acciones disponibles son :listar , crear , filtrar");
         break;
 
